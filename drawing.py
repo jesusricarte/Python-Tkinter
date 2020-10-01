@@ -5,6 +5,7 @@ canvas_height = 150
 class DrawPad:
    def __init__(self):
       self.w = Tk()
+      self.w.geometry('500x500') 
       self.w.title( "Painting using Ovals" )
       self.c = Canvas(self.w, 
                  width=canvas_width, 
